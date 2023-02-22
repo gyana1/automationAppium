@@ -1,14 +1,13 @@
 package pageobjects;
 
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.AppiumDriver;
-
 import java.time.Duration;
+
 
 public class PageBase {
 
@@ -20,6 +19,7 @@ public class PageBase {
 		driver = appiumDriver;
 	}
 
+
 	public void waitForVisibility(WebElement element) {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -27,7 +27,6 @@ public class PageBase {
 
 	}
 
-	
 	public void waitForAlertPresent(WebElement element) {
 		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
@@ -48,9 +47,6 @@ public class PageBase {
 		element.sendKeys(text);
 	}
 
-	
-	
-	
 	// @AfterTest public void teardown() { if (null != driver) { driver.quit(); } }
 
 }

@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit" />
+    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/CaptureNetworkRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/PruvitPulseWidget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/ProfileTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/ProfileTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2JuXbN8OAxtcTxv7KY0dWKUkmRy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,20 +69,24 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/AppiumTestsVAPT",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="testcases" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AppiumTestsVAPT" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProfileTests.OrderHistoryMoreDetails">
+  <component name="RunManager" selected="TestNG.NewsfeedTests.searchField">
     <configuration name="AppiumTestVAPT" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -103,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInTests.multiTouchLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsfeedTests.searchField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
       <extension name="coverage">
         <pattern>
@@ -112,26 +137,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.LogInTests" />
-      <option name="METHOD_NAME" value="multiTouchLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogInTests.multipleTapsLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.LogInTests" />
-      <option name="METHOD_NAME" value="multipleTapsLogin" />
+      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
+      <option name="METHOD_NAME" value="searchField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,21 +182,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProfileTests.locationSettings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.ProfileTests" />
+      <option name="METHOD_NAME" value="locationSettings" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.AppiumTestVAPT" />
-      <item itemvalue="TestNG.LogInTests.multiTouchLogin" />
-      <item itemvalue="TestNG.LogInTests.multipleTapsLogin" />
+      <item itemvalue="TestNG.NewsfeedTests.searchField" />
       <item itemvalue="TestNG.ProfileTests.OrderHistoryMoreDetails" />
       <item itemvalue="TestNG.ProfileTests.SectionShortCuts" />
+      <item itemvalue="TestNG.ProfileTests.locationSettings" />
       <item itemvalue="TestNG.LogInTests.ValidLogin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NewsfeedTests.searchField" />
+        <item itemvalue="TestNG.ProfileTests.locationSettings" />
         <item itemvalue="TestNG.ProfileTests.OrderHistoryMoreDetails" />
-        <item itemvalue="TestNG.ProfileTests.SectionShortCuts" />
         <item itemvalue="TestNG.LogInTests.ValidLogin" />
-        <item itemvalue="TestNG.LogInTests.multiTouchLogin" />
-        <item itemvalue="TestNG.LogInTests.multipleTapsLogin" />
+        <item itemvalue="TestNG.ProfileTests.SectionShortCuts" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675438658542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1675678474169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675678474169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

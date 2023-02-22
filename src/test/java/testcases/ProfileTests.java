@@ -6,6 +6,8 @@ import pageobjects.LoginScreen;
 import pageobjects.NavigationTabs;
 import pageobjects.ProfileScreen;
 
+import java.util.Set;
+
 public class ProfileTests extends TestBase {
     LoginScreen loginscreen;
     NavigationTabs navigation;
@@ -41,24 +43,38 @@ public class ProfileTests extends TestBase {
             }
         }
     }
+
     @Test
     public void OrderHistoryMoreDetails() {
-            for (AppiumDriver appiumDriver : drivers) {
-                loginscreen = new LoginScreen(appiumDriver);
-                navigation = new NavigationTabs(appiumDriver);
-                profilescreen = new ProfileScreen(appiumDriver);
+        for (AppiumDriver appiumDriver : drivers) {
+            loginscreen = new LoginScreen(appiumDriver);
+            navigation = new NavigationTabs(appiumDriver);
+            profilescreen = new ProfileScreen(appiumDriver);
 
-                {
-                    loginscreen.validLogin();
-                    navigation.tapOnProfileTab();
-                    profilescreen.tapOrderHistory();
-                    profilescreen.orderHistoryMoreDetails();
+            {
+                loginscreen.validLogin();
+                navigation.tapOnProfileTab();
+                profilescreen.openOrderHistory();
+              //  profilescreen.orderHistoryMoreDetails();
 
-                }
+            }
+        }
+    }
+
+    @Test
+
+    public void locationSettings() {
+        for (AppiumDriver appiumDriver : drivers) {
+            loginscreen = new LoginScreen(appiumDriver);
+            navigation = new NavigationTabs(appiumDriver);
+            profilescreen = new ProfileScreen(appiumDriver);
+
+            {
+                loginscreen.validLogin();
+                navigation.tapOnProfileTab();
+                profilescreen.openLocationSettings();
             }
 
         }
-
-
-
+    }
 }

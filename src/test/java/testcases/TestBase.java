@@ -4,8 +4,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -73,6 +75,7 @@ public class TestBase {
 
 		System.out.println("App is loaded ..........");
 	}
+
 
 	@AfterTest
 	public void teardown() {

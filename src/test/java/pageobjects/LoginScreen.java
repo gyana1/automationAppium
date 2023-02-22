@@ -149,24 +149,6 @@ public class LoginScreen extends PageBase {
 		}
 	}
 
-/*	public void logOut() {
-
-		boolean canScrollMore = (Boolean)
-
-		((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.builder()
-				.put("left", 100)
-				.put("top", 100)
-				.put("width", 200)
-				.put("height", 200)
-				.put("direction", "down")
-				.put("percent", 3.0)
-				.build()
-		);
-
-		logout_btn.click();
-	System.out.println("Logout");
-
-	}*/
 
 	public void unableToLogin() {
 
@@ -182,6 +164,7 @@ public class LoginScreen extends PageBase {
 		clickLogin();
 		updateAppLater();
 	}
+
 
 	public void forgotPassword(){
 		click(linkResetPass);
