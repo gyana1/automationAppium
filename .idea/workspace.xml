@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/PushNotifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/SmokeTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/WidgetTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ActionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ActionsScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ActivityScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ActivityScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NavigationTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/NavigationTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Widget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/WidgetScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BroadcastsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BroadcastsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/CaptureNetworkRequests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/NewsfeedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/NewsfeedTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/PruvitPulseWidget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ActionsScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ActionsScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ActivityScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ActivityScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NavigationTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/NavigationTabs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/BroadcastsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/BroadcastsTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/NewsfeedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/NewsfeedTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675678474169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1686768772638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686768772638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
