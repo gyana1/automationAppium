@@ -1,32 +1,47 @@
 package testcases;
 
 import io.appium.java_client.AppiumDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageobjects.BroadcastScreen;
 import pageobjects.LoginScreen;
 import pageobjects.NavigationTabs;
+import pageobjects.ProfileScreen;
 
 public class BroadcastsTests extends TestBase {
 
 	BroadcastScreen broadcastscreen;
 	LoginScreen loginscreen;
 	NavigationTabs navigation;
-
+	ProfileScreen profilescreen;
+	@BeforeTest
+	public void isLogin(){
+		for (AppiumDriver appiumDriver : drivers) {
+			loginscreen = new LoginScreen(appiumDriver);
+		}
+		loginscreen.validLogin();
+	}
+	@AfterTest
+	public void isLogout(){
+		for (AppiumDriver appiumDriver : drivers) {
+			profilescreen = new ProfileScreen(appiumDriver);
+			navigation = new NavigationTabs(appiumDriver);
+		}
+		navigation.tapOnProfileTab();
+		profilescreen.logOut();
+	}
 	@Test
 	public void Broadcasts() {
 
 		for (AppiumDriver appiumDriver : drivers) {
-			loginscreen = new LoginScreen(appiumDriver);
+
 			broadcastscreen = new BroadcastScreen(appiumDriver);
 			navigation = new NavigationTabs(appiumDriver);
 			
 			{
-
-				loginscreen.validLogin();
 				navigation.tapOnActionsTab();
 				broadcastscreen.openBroadcasts();
-				
-
 			}
 		}
 	}
@@ -34,7 +49,7 @@ public class BroadcastsTests extends TestBase {
 	@Test
 	public void createBroadcast() {
 		for (AppiumDriver appiumDriver : drivers) {
-			loginscreen = new LoginScreen(appiumDriver);
+
 			broadcastscreen = new BroadcastScreen(appiumDriver);
 			{
 

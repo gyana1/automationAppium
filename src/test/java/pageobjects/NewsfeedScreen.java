@@ -1,41 +1,38 @@
 package pageobjects;
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.PerformsTouchActions;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.touch.offset.ElementOption;
-import io.appium.java_client.touch.offset.PointOption;
-import org.openqa.selenium.JavascriptExecutor;
+import io.appium.java_client.android.AndroidTouchAction;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
-
-import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
-import static io.appium.java_client.touch.offset.ElementOption.element;
-import static java.time.Duration.ofSeconds;
-
 
 public class NewsfeedScreen extends PageBase {
+
     public NewsfeedScreen(AppiumDriver appiumDriver) {
+
         super(appiumDriver);
+        androidDriver = (AndroidDriver)appiumDriver;
     }
+    public AndroidTouchAction actions;
+
 
    // Describe elements
      @FindBy(className="android.widget.EditText")
     WebElement search;
 
-    @FindBy(id="com.pruvitint:id/stories_liner_layout")
-    WebElement stories_area;
-
     @FindBy(id="com.pruvitint:id/ad_banners_view_pager")
-    WebElement ad_banner_area;
+    WebElement ad_banner;
     @FindBy(id="com.pruvitint:id/more_text_view")
     WebElement ad_banner_more;
     @FindBy(id="com.pruvitint:id/more_text_view")
     WebElement more;
-
+    @FindBy(className = "android.widget.ImageButton")
+    WebElement back_arrow;
+    @FindBy(xpath="//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+    WebElement back_button;
+    @FindBy(id="com.pruvitint:id/stories_liner_layout")
+    WebElement stories;
 
 
     //
@@ -43,24 +40,67 @@ public class NewsfeedScreen extends PageBase {
         click(search);
 
     }
-    public void swipeAdBanners() {
+    public void SearchBroadcasts(){
+        click(search);
+        search.sendKeys("testBrdc");
+    }
 
-//        boolean swipeAdBanner = (Boolean)
-//               ((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.builder()
-//                .put("left", 100)
-//                .put("top", 100)
-//                .put("width", 200)
-//                .put("height", 200)
-//                .put( "direction","left")
-//                .put("percent", 0.75)
-//               );
-//        click(ad_banner_area);
+    public void checkSearchIsAvailable(){
+        waitForVisibility(stories);
 
-        //Swipe left
-        //  new TouchAction(AppiumDriver).longPress(250, 1200).moveTo(900, 1200).release().perform();
-        //Swipe right
+        if(search.isDisplayed()){
+            System.out.println("The search field is there");
+        } else{
+            System.out.println(" The search field is not displayed on the screen ");
+        }
+    }
 
-        //    new TouchAction(AppiumDriver).longPress(1000, 450).moveTo(500, 450).release().perform();
-        // }
+ public void checkStoriesAreaIsAvailable(){
+        if(stories.isDisplayed()){
+            System.out.println("There are Stories section");
+
+        } else{
+            System.out.println(" The user does not have permission to this section. Check permission in Newgen profile");
+        }
+
+ }
+    public void swipeStories() {
+        waitForVisibility(stories);
+        swipeGesture(stories);
+    }
+
+    public void openStories() {
+
+        WebElement slides_story = driver.findElements(By.className("android.widget.ImageView")).get(0);
+        slides_story.click();
+        waitForVisibility(back_arrow);
+        click(back_arrow);
+    }
+
+    public void checkAdBannersIsAvailable(){
+        waitForVisibility(ad_banner);
+        if(ad_banner.isDisplayed()){
+            System.out.println("There is AdBanners section");
+
+        } else{
+            System.out.println("No Adbanners ");
+        }
+
+    }
+
+    public void swipeBanners() {
+        waitForVisibility(ad_banner);
+        swipeGesture(ad_banner);
+
+    }
+
+    public void listBroadcasts(){
+         WebElement brds = driver.findElements(By.className("android.widget.RelativeLayout")).get(0);
+         click(brds);
+         waitForVisibility(back_button);
+         click(back_button);
+
+
+
     }
 }
