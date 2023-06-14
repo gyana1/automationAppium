@@ -40,4 +40,9 @@ public class NavigationTabs extends PageBase {
 		click(profile_tab);
 		waitForVisibility(profile_username);
 	}
+	public void tapOnCommunityTab(){
+		click(community_tab);
+	}
+
+
 }

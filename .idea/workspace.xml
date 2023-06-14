@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Widget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/CaptureNetworkRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/PruvitPulseWidget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/ProfileTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/ProfileTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/AppiumTestsVAPT",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AppiumTestsVAPT&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3547486&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="testcases" />
@@ -86,7 +70,7 @@
       <recent name="D:\AppiumTestsVAPT" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewsfeedTests.searchField">
+  <component name="RunManager" selected="TestNG.BroadcastsTests.Broadcasts">
     <configuration name="AppiumTestVAPT" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -110,7 +94,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="LogInTests.ValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BroadcastsTests.Broadcasts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +103,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.LogInTests" />
-      <option name="METHOD_NAME" value="ValidLogin" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BroadcastsTests" />
+      <option name="METHOD_NAME" value="Broadcasts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsfeedTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsfeedTests.AdBanners" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
+      <option name="METHOD_NAME" value="AdBanners" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsfeedTests.Stories" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
+      <option name="METHOD_NAME" value="Stories" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,75 +183,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProfileTests.OrderHistoryMoreDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.ProfileTests" />
-      <option name="METHOD_NAME" value="OrderHistoryMoreDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProfileTests.SectionShortCuts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.ProfileTests" />
-      <option name="METHOD_NAME" value="SectionShortCuts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProfileTests.locationSettings" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.ProfileTests" />
-      <option name="METHOD_NAME" value="locationSettings" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Maven.AppiumTestVAPT" />
+      <item itemvalue="TestNG.BroadcastsTests.Broadcasts" />
+      <item itemvalue="TestNG.NewsfeedTests.AdBanners" />
       <item itemvalue="TestNG.NewsfeedTests.searchField" />
-      <item itemvalue="TestNG.ProfileTests.OrderHistoryMoreDetails" />
-      <item itemvalue="TestNG.ProfileTests.SectionShortCuts" />
-      <item itemvalue="TestNG.ProfileTests.locationSettings" />
-      <item itemvalue="TestNG.LogInTests.ValidLogin" />
+      <item itemvalue="TestNG.NewsfeedTests" />
+      <item itemvalue="TestNG.NewsfeedTests.Stories" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BroadcastsTests.Broadcasts" />
+        <item itemvalue="TestNG.NewsfeedTests.Stories" />
+        <item itemvalue="TestNG.NewsfeedTests.AdBanners" />
         <item itemvalue="TestNG.NewsfeedTests.searchField" />
-        <item itemvalue="TestNG.ProfileTests.locationSettings" />
-        <item itemvalue="TestNG.ProfileTests.OrderHistoryMoreDetails" />
-        <item itemvalue="TestNG.LogInTests.ValidLogin" />
-        <item itemvalue="TestNG.ProfileTests.SectionShortCuts" />
+        <item itemvalue="TestNG.NewsfeedTests" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675678474169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1686768772638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686768772638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,5 +248,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/appiumtest$NewsfeedTests_Stories.ic" NAME="NewsfeedTests.Stories Coverage Results" MODIFIED="1684766413425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testcases.*</FILTER>
+    </SUITE>
   </component>
 </project>

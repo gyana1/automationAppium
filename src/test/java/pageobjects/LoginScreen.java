@@ -170,21 +170,10 @@ public class LoginScreen extends PageBase {
 		click(linkResetPass);
 	}
 
-/*	public void multiTouchLoginBtn(){
+	public void multiTouchLoginBtn(){
 
-		TouchActions actionOne = new TouchAction();
-		actionOne.press(10, 10);
-		actionOne.moveTo(10, 100);
-		actionOne.release();
-		TouchActions actionTwo = new TouchAction();
-		actionTwo.press(20, 20);
-		actionTwo.moveTo(20, 200);
-		actionTwo.release();
-		MultiTouchAction action = new MultiTouchAction();
-		action.add(actionOne);
-		action.add(actionTwo);
-		action.perform();
-	}*/
+	multiTouchByElement(login_btn);
+	}
 
 
 }

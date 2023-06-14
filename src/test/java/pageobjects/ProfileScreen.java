@@ -1,20 +1,10 @@
 package pageobjects;
-
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-import java.util.Set;
 
-import static io.netty.util.AsciiString.contains;
 
 public class ProfileScreen extends PageBase {
     public ProfileScreen(AppiumDriver appiumDriver) {
@@ -113,16 +103,17 @@ public class ProfileScreen extends PageBase {
     }
 
     public void logOut() {
-        boolean canScrollMore = (Boolean)
-                ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.builder()
-                        .put("left", 100)
-                        .put("top", 100)
-                        .put("width", 200)
-                        .put("height", 200)
-                        .put("direction", "down")
-                        .put("percent", 3.0)
-                        .build()
-                );
+        scrollToDown();
+//        boolean canScrollMore = (Boolean)
+//                ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.builder()
+//                        .put("left", 100)
+//                        .put("top", 100)
+//                        .put("width", 200)
+//                        .put("height", 200)
+//                        .put("direction", "down")
+//                        .put("percent", 3.0)
+//                        .build()
+//                );
 
         click(account_Logout);
         System.out.println("Logout");
