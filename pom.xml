@@ -5,8 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
     <properties>
         <cucumber-java.version>7.11.1</cucumber-java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
     </properties>
 
     <dependencies>
