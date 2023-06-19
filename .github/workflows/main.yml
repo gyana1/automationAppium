@@ -32,8 +32,7 @@ jobs:
       
     - name: setup appium
     run: |
-  npm install -g appium
-  appium -v
+ 
   appium &>/dev/null &
   
   - name: run tests emulator
