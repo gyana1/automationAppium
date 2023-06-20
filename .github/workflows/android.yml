@@ -16,11 +16,14 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+    -name: Checkout
+     uses: actions/checkout@v3
+    -uses:actions/setup-node@v1
+     with: 
+      node-version:18
+         
     - name: Set up JDK 19
       uses: actions/setup-java@v3
       with:
@@ -29,12 +32,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-      
-    - name: setup appium
-    run: |
-    appium -v
-    appium &>/dev/null &
-  
+     
   - name: run tests emulator
   uses: reactivecircus/android-emulator-runner@v2
   with:
