@@ -1,8 +1,6 @@
 package pageobjects;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidTouchAction;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -69,7 +67,7 @@ public class ActionsScreen extends PageBase {
     // Stories
 
     @FindBy(className = "android.widget.ImageView")
-    WebElement stories;
+    WebElement stories1;
 
     //Socials
     @FindBy(id = "com.pruvitint:id/layoutFacebook")
