@@ -7,8 +7,9 @@
 # documentation.
 
 name: PruvitPulse Demo Android Java 
-
 on:
+  workflow_dispatch:
+
   push:
     branches: [ "master" ]
   pull_request:
