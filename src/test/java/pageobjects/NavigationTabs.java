@@ -25,16 +25,23 @@ public class NavigationTabs extends PageBase {
 
 	@FindBy(id="com.pruvitint:id/user_name_text_view")
 	WebElement profile_username;
+	@FindBy(id="com.pruvitint:id/activity_list")
+	WebElement activity_list;
+	@FindBy(id="com.pruvitint:id/layoutShare")
+	WebElement actions_sharelist;
 
-	
+	@FindBy(id="com.pruvitint:id/placeholderLayout")
+	WebElement community_leads;
 	public void tapOnNewsTab() {
 		click(newsfeed_tab);
 	}
 	public void tapOnActivityTab() {
 		click(activity_tab);
+		waitForVisibility(activity_list);
 	}
 	public void tapOnActionsTab() {
 		click(actions_tab);
+		waitForVisibility(actions_sharelist);
 	}
 	public void tapOnProfileTab() {
 		click(profile_tab);
@@ -42,6 +49,7 @@ public class NavigationTabs extends PageBase {
 	}
 	public void tapOnCommunityTab(){
 		click(community_tab);
+		waitForVisibility(community_leads);
 	}
 
 
