@@ -3,6 +3,7 @@ name: PruvitPulse Demo Android Java
 on: [workflow_dispatch]
 push:
     branches: [ "master" ]
+    runs-on: self-hosted
  
 jobs:
   build:
