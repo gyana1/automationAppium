@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3
-      with:
+       with:
         fetch_depth:0
 
     - name: Appium Server Action
