@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppiumTestVAPT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumTestVAPT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ActionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ActionsScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" root0="SKIP_HIGHLIGHTING" />
@@ -63,10 +60,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/AppiumTestsVAPT",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,7 +74,7 @@
       <recent name="D:\AppiumTestsVAPT" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BroadcastsTests.Broadcasts">
+  <component name="RunManager" selected="TestNG.LogInTests.ValidLogin">
     <configuration name="AppiumTestVAPT" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -101,7 +98,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="BroadcastsTests.Broadcasts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
       <extension name="coverage">
         <pattern>
@@ -110,25 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.BroadcastsTests" />
-      <option name="METHOD_NAME" value="Broadcasts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewsfeedTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
+      <option name="MAIN_CLASS_NAME" value="testcases.LogInTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewsfeedTests.AdBanners" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTests.ValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
       <extension name="coverage">
         <pattern>
@@ -145,26 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
-      <option name="METHOD_NAME" value="AdBanners" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewsfeedTests.Stories" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.NewsfeedTests" />
-      <option name="METHOD_NAME" value="Stories" />
+      <option name="MAIN_CLASS_NAME" value="testcases.LogInTests" />
+      <option name="METHOD_NAME" value="ValidLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,21 +151,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTesting" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTesting.mainScreens" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTesting" />
+      <option name="METHOD_NAME" value="mainScreens" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.AppiumTestVAPT" />
-      <item itemvalue="TestNG.BroadcastsTests.Broadcasts" />
-      <item itemvalue="TestNG.NewsfeedTests" />
-      <item itemvalue="TestNG.NewsfeedTests.AdBanners" />
-      <item itemvalue="TestNG.NewsfeedTests.Stories" />
+      <item itemvalue="TestNG.LogInTests" />
+      <item itemvalue="TestNG.LogInTests.ValidLogin" />
+      <item itemvalue="TestNG.SmokeTesting" />
+      <item itemvalue="TestNG.SmokeTesting.mainScreens" />
       <item itemvalue="TestNG.NewsfeedTests.searchField" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogInTests.ValidLogin" />
+        <item itemvalue="TestNG.SmokeTesting.mainScreens" />
+        <item itemvalue="TestNG.LogInTests" />
+        <item itemvalue="TestNG.SmokeTesting" />
         <item itemvalue="TestNG.NewsfeedTests.searchField" />
-        <item itemvalue="TestNG.NewsfeedTests.Stories" />
-        <item itemvalue="TestNG.NewsfeedTests.AdBanners" />
-        <item itemvalue="TestNG.NewsfeedTests" />
-        <item itemvalue="TestNG.BroadcastsTests.Broadcasts" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +241,49 @@
       <option name="project" value="LOCAL" />
       <updated>1687182680340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1687466034246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687466034247</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1687466176575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687466176575</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1687467669078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687467669078</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1687467737153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687467737153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1687470142422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687470142422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1688065587498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688065587498</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
