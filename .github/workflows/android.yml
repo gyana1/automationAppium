@@ -28,13 +28,28 @@ jobs:
         with:
           java-version: 11
 
-      - name: Set up Android emulator
-        uses: reactivecircus/android-emulator-runner@v2
+     
+      - name: Install Android SDK
+        uses: android-actions/setup-android-sdk@v2
         with:
-          api-level: 30
-          target: default
-          distribution: 'google_apis'
+          sdk-platform: 'android-30'
+          emulator-version: '30.4.5'
+          build-tools: '30.0.3'
 
-      - name: Build and run tests
-        run: |
-          ./mvnw clean install
+      - name: Accept Android licenses
+        run: yes | sdkmanager --licenses
+
+      - name: Set up emulator
+        run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
+              
+      - name: Create emulator
+        run: echo no | avdmanager create avd -n test_emulator -k 'system-images;android-30;google_apis;x86_64' --device 'pixel'
+
+      - name: Start emulator
+        run: emulator -avd test_emulator -no-audio -no-window -wipe-data -no-boot-anim &
+
+      - name: Wait for emulator to start
+        run: android-wait-for-emulator
+
+      - name: Run tests
+        run: ./gradlew clean connectedAndroidTest
