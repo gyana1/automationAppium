@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit" />
+    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" root0="SKIP_HIGHLIGHTING" />
@@ -58,10 +60,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/AppiumTestsVAPT",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "MavenRunHelper"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687467737153</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1687470142422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687470142422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
