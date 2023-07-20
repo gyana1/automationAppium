@@ -77,6 +77,12 @@ public class LoginScreen extends PageBase {
 	@FindBy(id= "com.android.chrome:id/url_bar")
 	WebElement chrome_forgotpass;
 
+	@FindBy(id="com.pruvitint:id/skip_button")
+	WebElement skip;
+
+	@FindBy(id="com.pruvitint:id/messagesList")
+	WebElement wheel;
+
 	public void enterUsername(String userName) {
 		waitForVisibility(username);
 		if (username.isDisplayed()) {
@@ -101,6 +107,12 @@ public class LoginScreen extends PageBase {
 		Assert.assertEquals(welcome_subtext.getText(), "Log in with your Cloud account");
 		System.out.println("Log in with your Cloud account text is displayed");
 
+	}
+
+	public void skipPruvitWheel(){
+		if(wheel.isDisplayed()){
+			click(skip);
+		}
 	}
 
 	public void enterPassword(String userPass) {
@@ -171,7 +183,6 @@ public class LoginScreen extends PageBase {
 	}
 
 	public void multiTouchLoginBtn(){
-
 	multiTouchByElement(login_btn);
 	}
 
