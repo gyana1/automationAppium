@@ -30,10 +30,8 @@ jobs:
          java-version: '17'
       
       - name: Install and Run Appium Server
-      - uses: moatazeldebsy/appium-server-gitHub-action@V1.0.4
-         
-      - name: Accept Android licenses
-        run: yes | sdkmanager --licenses
+      - uses: moatazeldebsy/Appium-Server-GitHub-Action@V1.0.7
+      
 
       - name: Set up emulator
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
