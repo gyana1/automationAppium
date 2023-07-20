@@ -9,11 +9,12 @@
 name: PruvitPulse Demo Android Java
 
 on:
+  workflow_dispatched :
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-  workflow_dispatched :
+
 
 jobs:
   build:

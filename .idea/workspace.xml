@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
+    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="commit  change to ubuntu">
       <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/androidDemoNightly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/androidDemoNightly.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LogInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LogInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LogInTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688065587498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit  change to ubuntu">
+      <created>1689856278055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689856278055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="commit  change to ubuntu" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit  change to ubuntu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
