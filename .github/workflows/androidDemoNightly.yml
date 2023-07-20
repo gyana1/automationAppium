@@ -1,10 +1,8 @@
 name: Nightly build at 11pm Android Pruvit Pulse Demo 
 
 on:
-  workflow_dispatched:
-
-#  schedule:
-#    - cron: '0 23 * * *'
+  schedule:
+  - cron: '0 23 * * *'
 
 
 jobs:
