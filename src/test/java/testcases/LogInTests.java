@@ -22,6 +22,8 @@ public class LogInTests extends TestBase {
 
 			{
 				loginscreen.validLogin();
+				loginscreen.updateAppLater();
+				loginscreen.skipPruvitWheel();
 				navigation.tapOnProfileTab();
 				profilescreen.logOut();
 

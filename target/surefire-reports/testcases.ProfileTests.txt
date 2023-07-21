@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: testcases.ProfileTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 88.959 s <<< FAILURE! - in testcases.ProfileTests
+SectionAccount(testcases.ProfileTests)  Time elapsed: 20.085 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.pruvitint:id/username_edit_text' (tried for 20 second(s) with 500 milliseconds interval)
+	at testcases.ProfileTests.SectionAccount(ProfileTests.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a1c30a28-a705-44a3-97d5-0c4e240f6c81, findElement {using=id, value=com.pruvitint:id/username_edit_text}]
+Capabilities {appium:appActivity: com.pruvit.ui.AppLoadingAct..., appium:appPackage: com.pruvitint, appium:databaseEnabled: false, appium:desired: {appActivity: com.pruvit.ui.AppLoadingAct..., appPackage: com.pruvitint, deviceName: Android SDK built for x86, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 135, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a1c30a28-a705-44a3-97d5-0c4e240f6c81
+	at testcases.ProfileTests.SectionAccount(ProfileTests.java:40)
+
+SectionShortCuts(testcases.ProfileTests)  Time elapsed: 20.376 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.pruvitint:id/username_edit_text' (tried for 20 second(s) with 500 milliseconds interval)
+	at testcases.ProfileTests.SectionShortCuts(ProfileTests.java:25)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a1c30a28-a705-44a3-97d5-0c4e240f6c81, findElement {using=id, value=com.pruvitint:id/username_edit_text}]
+Capabilities {appium:appActivity: com.pruvit.ui.AppLoadingAct..., appium:appPackage: com.pruvitint, appium:databaseEnabled: false, appium:desired: {appActivity: com.pruvit.ui.AppLoadingAct..., appPackage: com.pruvitint, deviceName: Android SDK built for x86, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 135, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a1c30a28-a705-44a3-97d5-0c4e240f6c81
+	at testcases.ProfileTests.SectionShortCuts(ProfileTests.java:25)
+
+locationSettings(testcases.ProfileTests)  Time elapsed: 20.09 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.pruvitint:id/username_edit_text' (tried for 20 second(s) with 500 milliseconds interval)
+	at testcases.ProfileTests.locationSettings(ProfileTests.java:73)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a1c30a28-a705-44a3-97d5-0c4e240f6c81, findElement {using=id, value=com.pruvitint:id/username_edit_text}]
+Capabilities {appium:appActivity: com.pruvit.ui.AppLoadingAct..., appium:appPackage: com.pruvitint, appium:databaseEnabled: false, appium:desired: {appActivity: com.pruvit.ui.AppLoadingAct..., appPackage: com.pruvitint, deviceName: Android SDK built for x86, platformName: android, platformVersion: 10, udid: emulator-5554}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 135, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a1c30a28-a705-44a3-97d5-0c4e240f6c81
+	at testcases.ProfileTests.locationSettings(ProfileTests.java:73)
+

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="initial commit">
+    <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="commit  change to ubuntu11">
       <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,10 +60,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/AppiumTestsVAPT",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -283,7 +283,56 @@
       <option name="project" value="LOCAL" />
       <updated>1688065587498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit  change to ubuntu">
+      <created>1689856278055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689856278055</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit  change to ubuntu">
+      <created>1689856348375</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689856348375</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit  change to ubuntu">
+      <created>1689856461597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689856461597</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit  change to ubuntu1">
+      <created>1689856584859</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689856584859</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit  change to ubuntu1">
+      <created>1689864065009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689864065009</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit  change to ubuntu1">
+      <created>1689864208190</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689864208190</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit  change to ubuntu11">
+      <created>1689864227021</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689864227021</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +348,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="commit  change to ubuntu" />
+    <MESSAGE value="commit  change to ubuntu1" />
+    <MESSAGE value="commit  change to ubuntu11" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit  change to ubuntu11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
