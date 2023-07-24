@@ -18,7 +18,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: buildjet-2vcpu-ubuntu-2204
 
     steps:
       - name: Checkout code
@@ -46,8 +46,8 @@ jobs:
       - name: Accept Android licenses
         run: yes | sdkmanager --licenses
 
-      - name: Checking hardware accelaration
-        run: sudo apt install cpu-checker && sudo kvm-ok
+#      - name: Checking hardware accelaration
+#        run: sudo apt install cpu-checker && sudo kvm-ok
 
       - name: Set up emulator
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64'
