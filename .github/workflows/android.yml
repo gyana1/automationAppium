@@ -56,7 +56,7 @@ jobs:
         run: avdmanager list device
 
       - name: Start emulator
-        run: $ANDROID_HOME/emulator/emulator @pixel_5 -no-audio -no-window -wipe-data -no-boot-anim
+        run: $ANDROID_HOME/emulator/emulator @"Pixel 5" -no-audio -no-window -wipe-data -no-boot-anim
 
       - name: Wait for emulator to start
         run: android-wait-for-emulator
