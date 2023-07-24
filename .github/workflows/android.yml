@@ -54,10 +54,10 @@ jobs:
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
               
       - name: Create emulator
-        run: echo no | avdmanager create avd -n test_emulator -k 'system-images;android-30;google_apis;x86_64' --device 'pixel'
+        run: avdmanager create avd -n test_emulator -k 'system-images;android-30;google_apis;x86_64' --device 'pixel' --verbose
 
       - name: List emulators
-        run: echo no | avdmanager list device
+        run: avdmanager list device --verbose
 
       - name: Start emulator
         run: emulator -avd test_emulator -no-audio -no-window -wipe-data -no-boot-anim &
