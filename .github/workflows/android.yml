@@ -46,11 +46,11 @@ jobs:
       - name: Accept Android licenses
         run: yes | sdkmanager --licenses
 
-#      - name: Set up emulator
-#        run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
-#
-#      - name: Create emulator
-#        run: avdmanager --verbose create avd --force --name "test_emulator" --package 'system-images;android-30;google_apis;x86_64' --device 'pixel_5'
+      - name: Set up emulator
+        run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
+
+      - name: Create emulator
+        run: avdmanager --verbose create avd --force --name "test_emulator" --package 'system-images;android-30;google_apis;x86_64' --device 'pixel_5'
 
       - name: List emulators
         run: avdmanager list device
