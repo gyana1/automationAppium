@@ -47,7 +47,7 @@ jobs:
         run: yes | sdkmanager --licenses
 
       - name: Checking hardware accelaration
-        run: kvm-ok
+        run: kvm-ok || apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 
       - name: Set up emulator
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
