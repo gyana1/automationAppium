@@ -56,7 +56,7 @@ jobs:
         run:  $ANDROID_HOME/emulator/emulator -list-avds
 
       - name: Start emulator
-        run: $ANDROID_HOME/emulator/emulator @test_emulator -no-audio -no-window -wipe-data -no-boot-anim
+        run: $ANDROID_HOME/emulator/emulator @test_emulator  --gpu auto -no-audio -no-window -wipe-data -no-boot-anim
 
       - name: Wait for emulator to start
         run: android-wait-for-emulator
