@@ -46,6 +46,9 @@ jobs:
       - name: Accept Android licenses
         run: yes | sdkmanager --licenses
 
+      - name: Checking hardware accelaration
+        run: kvm-ok
+
       - name: Set up emulator
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
 
