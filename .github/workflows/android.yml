@@ -47,7 +47,7 @@ jobs:
         run: yes | sdkmanager --licenses
 
       - name: Checking hardware accelaration
-        run: sudo apt install cpu-checker | kvm-ok
+        run: sudo apt install cpu-checker && kvm-ok
 
       - name: Set up emulator
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64'
