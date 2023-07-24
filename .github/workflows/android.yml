@@ -47,10 +47,10 @@ jobs:
         run: yes | sdkmanager --licenses
 
       - name: Checking hardware accelaration
-        run: kvm-ok || sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+        run: sudo apt install cpu-checker | kvm-ok
 
       - name: Set up emulator
-        run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
+        run: sdkmanager --install 'system-images;android-30;google_apis;x86_64'
 
       - name: Create emulator
         run: avdmanager --verbose create avd --force --name "test_emulator" --package 'system-images;android-30;google_apis;x86_64' --device 'pixel_5'
@@ -59,7 +59,7 @@ jobs:
         run:  $ANDROID_HOME/emulator/emulator -list-avds
 
       - name: Start emulator
-        run: $ANDROID_HOME/emulator/emulator @test_emulator  -gpu auto -no-audio -no-window -wipe-data -no-boot-anim
+        run: $ANDROID_HOME/emulator/emulator @test_emulator -gpu auto -no-audio -no-window -wipe-data -no-boot-anim
 
       - name: Wait for emulator to start
         run: android-wait-for-emulator
