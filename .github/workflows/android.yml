@@ -50,13 +50,13 @@ jobs:
         run: sdkmanager --install 'system-images;android-30;google_apis;x86_64' --verbose
               
       - name: Create emulator
-        run: avdmanager --verbose create avd -n test_emulator -k 'system-images;android-30;google_apis;x86_64' --device 'pixel_5'
+        run: avdmanager --verbose create avd --force --name "test_emulator" --package 'system-images;android-30;google_apis;x86_64' --device 'pixel_5'
 
       - name: List emulators
-        run: avdmanager --verbose list device
+        run: avdmanager list device
 
       - name: Start emulator
-        run: emulator -avd test_emulator -no-audio -no-window -wipe-data -no-boot-anim &
+        run: emulator @test_emulator -no-audio -no-window -wipe-data -no-boot-anim &
 
       - name: Wait for emulator to start
         run: android-wait-for-emulator
