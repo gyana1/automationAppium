@@ -9,8 +9,6 @@
         <module name="AppiumTestVAPT" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="19">
-      <module name="AppiumTestVAPT" target="17" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="19" />
   </component>
 </project>
