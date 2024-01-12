@@ -5,86 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="commit  change to setting android sdk">
-      <change afterPath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/BroadcastScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/LoginScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/iOS/Login_iOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AndroidGestures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/IOSGestures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AppiumServerBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/DataAccounts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsBroadcasts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_28_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_28_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommunityScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/CommunityScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewsScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/ProfileScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/iOS/LoginView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ActionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/ActionsScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ActivityScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/ActivityScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BroadcastScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BroadcastScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/CommunityScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NavigationTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/NavigationTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/NewsfeedScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/NewsfeedScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/PN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ProfileScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/WidgetScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/android/Widget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsAudience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BroadcastsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsLogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/NewsfeedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsNewsfeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/PushNotifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestsPushNotifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/SmokeTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/SmokeTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/AppiumSetUpDevices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/WidgetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/WidgetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CommunityScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/NewsScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProfileScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/iOS/LoginView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ActionsScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ActivityScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BroadcastScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/CommunityScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/LoginScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NavigationTabs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/NewsfeedScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PageBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/ProfileScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/WidgetScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/Audience.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/BroadcastsTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LogInTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/NewsfeedTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/ProfileTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/PushNotifications.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/SmokeTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/SmokeTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/WidgetTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/WidgetTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testcases.BroadcastsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-testcases.BroadcastsTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testcases.LogInTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-testcases.LogInTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AppiumTestsVAPT&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3547486&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/AppiumTestsVAPT",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3547486",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="testcases" />
@@ -416,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689864227021</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="commit  change to setting android sdk">
+      <option name="closed" value="true" />
+      <created>1705046561517</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705046561517</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -441,7 +370,8 @@
     <MESSAGE value="commit  change to ubuntu" />
     <MESSAGE value="commit  change to ubuntu1" />
     <MESSAGE value="commit  change to ubuntu11" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit  change to ubuntu11" />
+    <MESSAGE value="commit  change to setting android sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit  change to setting android sdk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
