@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="commit  change to setting android sdk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/AppiumSetUpDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/AppiumSetUpDevices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/AppiumSetUpDevices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/AppiumSetUpDevices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3547486",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,7 +85,7 @@
       <recent name="pagesObject.android" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestsLogIn">
+  <component name="RunManager" selected="TestNG.TestsLogIn.ValidLogin">
     <configuration name="AppiumTestVAPT" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -110,23 +112,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="SmokeTesting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTestVAPT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTesting" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TestsActivity.expiredPROsub" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
@@ -163,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsNewsfeed.searchField" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsLogIn.ValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumTestVAPT" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +157,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestsNewsfeed" />
-      <option name="METHOD_NAME" value="searchField" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestsLogIn" />
+      <option name="METHOD_NAME" value="ValidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsLogIn.emptyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTestVAPT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestsLogIn" />
+      <option name="METHOD_NAME" value="emptyLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,22 +197,25 @@
     <list>
       <item itemvalue="Maven.AppiumTestVAPT" />
       <item itemvalue="TestNG.TestsLogIn" />
+      <item itemvalue="TestNG.TestsLogIn.ValidLogin" />
+      <item itemvalue="TestNG.TestsLogIn.emptyLogin" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.SmokeTesting" />
       <item itemvalue="TestNG.TestsActivity.expiredPROsub" />
-      <item itemvalue="TestNG.TestsNewsfeed.searchField" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestsLogIn.ValidLogin" />
+        <item itemvalue="TestNG.TestsLogIn.emptyLogin" />
         <item itemvalue="TestNG.TestsLogIn" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.TestsActivity.expiredPROsub" />
-        <item itemvalue="TestNG.TestsNewsfeed.searchField" />
-        <item itemvalue="TestNG.SmokeTesting" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\GalinaYaneva\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="13442557-b122-4566-8cd6-a5a38058490e" name="Changes" comment="" />
@@ -345,7 +351,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705046561517</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="commit  change to setting android sdk">
+      <option name="closed" value="true" />
+      <created>1705047768144</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705047768144</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit  change to setting android sdk">
+      <option name="closed" value="true" />
+      <created>1705047773205</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705047773205</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">

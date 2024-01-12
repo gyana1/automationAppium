@@ -31,7 +31,7 @@ public class AppiumSetUpDevices extends AppiumServerBasic {
 
 		DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setCapability("deviceName", "sdk_gphone_x86_64");
-			cap.setCapability("udid", "emulator-5556");
+			cap.setCapability("udid", "emulator-5554");
 			cap.setCapability("appium:platformName", "Android");
 			cap.setCapability("appium:platformVersion", "13");
 			cap.setCapability("appium:automationName", "UIAutomator2");
