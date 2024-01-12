@@ -6,12 +6,12 @@
     <groups>
     </groups>
     <test started-at="2023-01-09T17:49:47 EET" name="Default test" finished-at="2023-01-09T17:50:13 EET" duration-ms="26613">
-      <class name="testcases.LogInTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogInTests@5c6648b0]" started-at="2023-01-09T17:49:47 EET" name="setUp" finished-at="2023-01-09T17:49:53 EET" duration-ms="5989" status="PASS">
+      <class name="testcases.TestsLogIn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestsLogIn@5c6648b0]" started-at="2023-01-09T17:49:47 EET" name="setUp" finished-at="2023-01-09T17:49:53 EET" duration-ms="5989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ValidLogin()[pri:0, instance:testcases.LogInTests@5c6648b0]" started-at="2023-01-09T17:49:53 EET" name="ValidLogin" finished-at="2023-01-09T17:50:13 EET" duration-ms="20335" status="FAIL">
+        <test-method signature="ValidLogin()[pri:0, instance:testcases.TestsLogIn@5c6648b0]" started-at="2023-01-09T17:49:53 EET" name="ValidLogin" finished-at="2023-01-09T17:50:13 EET" duration-ms="20335" status="FAIL">
           <exception class="java.lang.Error">
             <message>
               <![CDATA[Unresolved compilation problem: 
@@ -23,7 +23,7 @@ ImmutableMap cannot be resolved
 ImmutableMap cannot be resolved
 
 at pageobjects.LoginScreen.logOut(LoginScreen.java:151)
-at testcases.LogInTests.ValidLogin(LogInTests.java:23)
+at testcases.TestsLogIn.ValidLogin(LogInTests.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,11 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LogInTests@5c6648b0]" started-at="2023-01-09T17:50:13 EET" name="teardown" finished-at="2023-01-09T17:50:13 EET" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TestsLogIn@5c6648b0]" started-at="2023-01-09T17:50:13 EET" name="teardown" finished-at="2023-01-09T17:50:13 EET" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testcases.LogInTests -->
+      </class> <!-- testcases.TestsLogIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

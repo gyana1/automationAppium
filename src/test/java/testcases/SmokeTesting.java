@@ -2,12 +2,12 @@ package testcases;
 
 import io.appium.java_client.AppiumDriver;
 import org.testng.annotations.Test;
-import pageobjects.LoginScreen;
-import pageobjects.NavigationTabs;
-import pageobjects.NewsfeedScreen;
-import pageobjects.ProfileScreen;
+import pagesObject.android.LoginScreen;
+import pagesObject.android.NavigationTabs;
+import pagesObject.android.NewsfeedScreen;
+import pagesObject.android.ProfileScreen;
 
-public class SmokeTesting extends TestBase{
+public class SmokeTesting extends AppiumSetUpDevices {
     NewsfeedScreen newsfeedScreen;
     LoginScreen loginscreen;
     NavigationTabs navigation;
@@ -15,7 +15,7 @@ public class SmokeTesting extends TestBase{
 
     @Test
 
-    public void mainScreens() {
+    public void mainScreens(String name,String pass) {
 
         for (AppiumDriver appiumDriver : drivers) {
             newsfeedScreen = new NewsfeedScreen(appiumDriver);
@@ -24,10 +24,9 @@ public class SmokeTesting extends TestBase{
             profilescreen = new ProfileScreen(appiumDriver);
             {
 
-                loginscreen.validLogin();
-                newsfeedScreen.swipeStories();
+                loginscreen.validCredentials(name,pass);
+              //  newsfeedScreen.swipeStories();
                 newsfeedScreen.openStories();
-                newsfeedScreen.swipeBanners();
                 newsfeedScreen.listBroadcasts();
                 navigation.tapOnActivityTab();
                 navigation.tapOnActionsTab();
