@@ -23,9 +23,16 @@ public void searchField(String name, String pass){
         for (AppiumDriver appiumDriver : drivers) {
             loginscreen = new LoginScreen(appiumDriver);
             newsfeedScreen = new NewsfeedScreen(appiumDriver);
+            navigation =new NavigationTabs(appiumDriver);
+            profilescreen = new ProfileScreen(appiumDriver);
     }
         loginscreen.validCredentials(name,pass);
+    System.out.println("bla");
         newsfeedScreen.checkSearchIsAvailable();
+        newsfeedScreen.clickSearch();
+        newsfeedScreen.searchBroadcasts();
+        navigation.tapOnProfileTab();
+        profilescreen.logOut();
 
     }
 

@@ -47,6 +47,7 @@ public class NavigationTabs extends AndroidGestures {
 		waitForVisibility(activity_list);
 
 
+
 	}
 	public void tapOnActionsTab() {
 		click(actions_tab);

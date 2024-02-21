@@ -1,10 +1,10 @@
 package pagesObject.android;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.AndroidGestures;
 
@@ -18,21 +18,22 @@ public class NewsfeedScreen  extends AndroidGestures {
 
 
    // Describe elements
-     @FindBy(className="android.widget.EditText")
+     @AndroidFindBy(className="com.pruvit.int:id/elders_search_view")
     WebElement search;
 
-    @FindBy(id="com.pruvit.int:id/ad_banners_view_pager")
+   @AndroidFindBy(id="com.pruvit.int:id/ad_banners_view_pager")
     WebElement ad_banner;
-    @FindBy(id="com.pruvit.int:id/more_text_view")
+    @AndroidFindBy(id="com.pruvit.int:id/more_text_view")
     WebElement ad_banner_more;
-    @FindBy(id="com.pruvit.int:id/more_text_view")
+    @AndroidFindBy(id="com.pruvit.int:id/more_text_view")
     WebElement more;
-    @FindBy(className = "android.widget.ImageButton")
+    @AndroidFindBy(className = "android.widget.ImageButton")
     WebElement back_arrow;
-    @FindBy(xpath="//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+    @AndroidFindBy(xpath="//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
     WebElement back_button;
-    @FindBy(id="com.pruvit.int:id/stories_liner_layout")
+    @AndroidFindBy(id="com.pruvit.int:id/stories_liner_layout")
     WebElement stories;
+
 
 
     //
@@ -40,15 +41,17 @@ public class NewsfeedScreen  extends AndroidGestures {
         click(search);
 
     }
-    public void SearchBroadcasts(){
+    public void searchBroadcasts(){
         click(search);
         search.sendKeys("testBrdc");
     }
 
     public void checkSearchIsAvailable(){
         waitForVisibility(stories);
+        System.out.println("stories");
 
         if(search.isDisplayed()){
+
             System.out.println("The search field is there");
         } else{
             System.out.println(" The search field is not displayed on the screen ");
@@ -62,17 +65,8 @@ public class NewsfeedScreen  extends AndroidGestures {
         } else{
             System.out.println(" The user does not have permission to this section. Check permission in Newgen profile");
         }
-
  }
-//    public void swipeStories() {
-//
-//        if(stories.isEnabled()){
-//        swipeStories(stories);
-//        } else {
-//            System.out.println(" there are not stories");
-//        }
-//
-//    }
+
 
     public void openStories() {
 
